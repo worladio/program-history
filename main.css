@@ -50,6 +50,13 @@ body {
   grid-gap: 5px;
 }
 
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .sidebar {
   position: fixed;
   left: calc(50% - 400px - 290px);
